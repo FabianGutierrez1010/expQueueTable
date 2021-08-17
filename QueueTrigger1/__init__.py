@@ -52,7 +52,7 @@ def main(msg: func.QueueMessage) -> None:
             else:
                 pass
             msg['Subject'] = email['subject']
-            # Cuerpo del correo
+            # Cuerpo del correo electrónico
             base64_message = email['body']
             base64_bytes = base64_message.encode('ascii')
             message_bytes = base64.b64decode(base64_bytes)
