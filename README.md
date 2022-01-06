@@ -1,2 +1,2 @@
-# expQueueTable
-cd expQueueTable, intento de hacer despliegue de azure function desde github
+# Send mail using queue
+Azure function triggereada por una cola en azure para enviar correos.
